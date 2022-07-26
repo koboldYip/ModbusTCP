@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Configuration>
+
+    <address>localhost</address>
+    <port>502</port>
+    <pollingDelay>1</pollingDelay>
+    <timeOut>10</timeOut>
+
+    <signals>
+        <modbusSignal id="1" registerType="COIL" initialRegister="0" type="Boolean"/>
+        <modbusSignal id="2" registerType="DISCRETE_INPUT" initialRegister="0" type="Boolean"/>
+        <modbusSignal id="3" registerType="HOLDING_REGISTER" initialRegister="0" type="Float"/>
+        <modbusSignal id="4" registerType="HOLDING_REGISTER" initialRegister="0" type="Integer"/>
+        <modbusSignal id="5" registerType="HOLDING_REGISTER" initialRegister="0" type="Short"/>
+        <modbusSignal id="6" registerType="INPUT_REGISTER" initialRegister="0" type="Float"/>
+        <modbusSignal id="7" registerType="INPUT_REGISTER" initialRegister="0" type="Integer"/>
+        <modbusSignal id="8" registerType="INPUT_REGISTER" initialRegister="0" type="Short"/>
+    </signals>
+
+</Configuration>
+
